@@ -1,4 +1,8 @@
 #!/bin/bash
 # My first script
 
-echo "Hello World!"
+hello() {
+echo "Hello $1"
+}
+
+hello $1
