@@ -7,7 +7,7 @@ run_git() {
     git commit -m "$desc"
 }
 
-run_git $1 $desc
+run_git $1
 
 # git add .
 # read -p "Commit: " desc
