@@ -8,7 +8,3 @@ run_git() {
 }
 
 run_git $1
-
-# git add .
-# read -p "Commit: " desc
-# git commit -m "$desc"
